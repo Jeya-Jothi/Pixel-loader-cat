@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://pixel-loader-cartoon.onrender.com";
+const siteUrl = "https://pixel-loader-cat-simple.onrender.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
