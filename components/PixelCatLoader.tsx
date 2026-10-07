@@ -155,7 +155,14 @@ export default function PixelCatLoader({
     <div
       role="status"
       aria-label="Loading"
-      style={{ background }}
+      style={{
+        background,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        height: "100svh",
+        overflow: "hidden",
+      }}
       className={`fixed inset-0 z-[9999] flex items-center justify-center transition-opacity duration-500 ${
         fading ? "pointer-events-none opacity-0" : "opacity-100"
       } ${className}`}
