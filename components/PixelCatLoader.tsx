@@ -1,6 +1,16 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+// import {
+//   CAT_BODY,
+//   CAT_HEIGHT,
+//   CAT_PALETTE,
+//   CAT_TAIL_FRAMES,
+//   CAT_TAIL_ORIGIN,
+//   CAT_TAIL_SEQUENCE,
+//   CAT_WIDTH,
+// } from "../data/pixelCatData";
+
 import {
   CAT_BODY,
   CAT_HEIGHT,
@@ -9,7 +19,7 @@ import {
   CAT_TAIL_ORIGIN,
   CAT_TAIL_SEQUENCE,
   CAT_WIDTH,
-} from "../data/pixelCatData";
+} from "../data/pixelCatDataAdvance";
 
 export type PixelCatLoaderProps = {
   /** Minimum time the loader stays visible (ms). */
